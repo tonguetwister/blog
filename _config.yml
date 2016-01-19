@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Blog
-tagline:             One step at a time
+tagline:             'One step at a time'
 url:                 http://tonguetwister.github.io/blog/
 paginate:            1
 baseurl:             "http://tonguetwister.github.io/blog/"
@@ -33,6 +33,6 @@ github:
 
 
 pages_list:       
-  About: '/about/'
-  Archive: '/archive/'
-  Feed: '/atom.xml'
+  About: '/blog/about/'
+  Archive: '/blog/archive/'
+  Feed: '/blog/atom.xml'
