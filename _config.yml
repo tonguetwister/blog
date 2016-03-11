@@ -7,9 +7,9 @@ relative_permalinks: true
 # Setup
 title:               Blog
 tagline:             'One step at a time'
-url:                 http://tonguetwister.github.io/blog/
+url:                 http://lorcha.github.io/iblog/
 paginate:            1
-baseurl:             "http://tonguetwister.github.io/blog/"
+baseurl:             "http://lorcha.github.io/iblog/"
 
 # Assets
 #
