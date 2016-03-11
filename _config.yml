@@ -27,7 +27,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              github.com/tonguetwister/blog
+  repo:              github.com/lorcha/blog
 
 # Page list
 
