@@ -5,8 +5,8 @@ permalink:           pretty
 #relative_permalinks: true
 
 # Setup
-title:               Blog
-tagline:             'One step at a time'
+title:               Lorcha
+tagline:             'One hour per day'
 url:                 http://lorcha.github.io/iblog/
 paginate:            1
 baseurl:             "http://lorcha.github.io/iblog/"
