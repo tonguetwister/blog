@@ -7,9 +7,9 @@ relative_permalinks: true
 # Setup
 title:               Blog
 tagline:             'One step at a time'
-url:                 http://Lorcha.github.io/iblog/
+url:                 http://lorcha.github.io/iblog/
 paginate:            1
-baseurl:             "http://Lorcha.github.io/iblog/"
+baseurl:             "http://lorcha.github.io/iblog/"
 
 # Assets
 #
@@ -33,6 +33,6 @@ github:
 
 
 pages_list:       
-  About: '/blog/about/'
-  Archive: '/blog/archive/'
-  Feed: '/blog/atom.xml'
+  About: '/iblog/about/'
+  Archive: '/iblog/archive/'
+  Feed: '/iblog/atom.xml'
