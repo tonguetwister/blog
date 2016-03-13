@@ -2,14 +2,14 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:               Blog
 tagline:             'One step at a time'
 url:                 http://lorcha.github.io/iblog/
 paginate:            1
-baseurl:             http://lorcha.github.io/iblog/
+baseurl:             "http://lorcha.github.io/iblog/"
 
 # Assets
 #
