@@ -33,6 +33,6 @@ github:
 
 
 pages_list:       
-  About: '/iblog/about/'
+  #About: '/iblog/about/'
   Archive: '/iblog/archive/'
   Feed: '/iblog/atom.xml'
