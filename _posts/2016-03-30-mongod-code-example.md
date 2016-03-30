@@ -10,8 +10,7 @@ title: code example on mongodb
 One good thing about mongdb is its ability to build spatial index. Using various command to do some query is actually handy. 
 
 
-<code>
-
+```
  db.data.find({"geometry.coordinates": {$within:{$box:[[ -177, -89],[ 170, 89]]}}}).limit(3)
  db.data.find({"geometry.coordinates": {$near:[ -177, -89], $maxDistance: 100}}).limit(3)
 db.runCommand({geoNear:"data",near: [ 40, 40], maxDistance:5000000})
@@ -70,13 +69,12 @@ db.data.aggregate([{$unwind: "$geometry.coordinates"},
 
 
 
-</code>
-
+```
 
 Using docker to build a mongodb cluster is fast. 
 
 
-<code>
+```
 Docker command
 ### Write a docker file
 cd ddd/ddd
@@ -172,7 +170,7 @@ docker run --name linuxtube -d ubuntu:latest /bin/bash -c "while true; do echo 1
 
 docker exec -it e7bb6cfd1a3a  bin/bash
 
-</code>
+```
 
 
 
