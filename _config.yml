@@ -2,14 +2,14 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
-title:               Blog
-tagline:             'One step at a time'
-url:                 http://tonguetwister.github.io/blog/
+title:               Lorcha
+tagline:             'One hour per day'
+url:                 http://lorcha.github.io/iblog/
 paginate:            1
-baseurl:             "http://tonguetwister.github.io/blog/"
+baseurl:             "http://lorcha.github.io/iblog/"
 
 # Assets
 #
@@ -20,19 +20,19 @@ sass:
 
 # About/contact
 author:
-  name:              T T
+  name:              Lorcha
   url:               https://twitter.com
   email:             TT@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              github.com/tonguetwister/blog
+  repo:              github.com/lorcha/iblog
 
 # Page list
 
 
 pages_list:       
-  About: '/blog/about/'
-  Archive: '/blog/archive/'
-  Feed: '/blog/atom.xml'
+  #About: '/iblog/about/'
+  Archive: '/iblog/archive/'
+  Feed: '/iblog/atom.xml'
